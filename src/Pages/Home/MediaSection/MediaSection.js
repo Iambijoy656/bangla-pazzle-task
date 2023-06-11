@@ -62,7 +62,11 @@ const MediaSection = () => {
         Media Coverages
       </h1>
 
-      <div className="md:mx-32">
+      <div
+        className="md:mx-32"
+        data-aos="zoom-out-right"
+        data-aos-duration="1000"
+      >
         <Carousel responsive={responsive}>
           {carouselItems.map((item) => (
             <div className="flex justify-center items-center px-2">

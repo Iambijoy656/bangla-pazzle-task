@@ -5,14 +5,24 @@ const JourneySection = () => {
   return (
     <section className="">
       <div className="hero bg-[#115c8f]">
-        <div className="hero-content flex-col lg:flex-row-reverse ">
+        <div
+          data-aos="fade-left"
+          data-aos-direction="right"
+          data-aos-duration="1000"
+          className="hero-content flex-col lg:flex-row-reverse "
+        >
           <img
             src="https://anjirliton.com/uploads/home/1675939333.jpg"
             className="max-w-xl "
             alt=""
           />
 
-          <div className="p-10 text-white">
+          <div
+            className="p-10 text-white"
+            data-aos="fade-left"
+            data-aos-direction="right"
+            data-aos-duration="1000"
+          >
             <h1 className="text-4xl font-bold uppercase">
               MY JOURNEY WITH SHISHU ACADEMY
             </h1>

@@ -5,7 +5,11 @@ const Initiatives = () => {
     <section className=" bg-white mb-[400px]">
       <div className="hero">
         <div className="hero-content flex-col lg:flex-row-reverse ">
-          <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
+          <div
+            className="grid grid-cols-2 md:grid-cols-2 gap-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div className="card lg:card-side bg-base-200 rounded-none border">
               <figure>
                 <img
@@ -93,7 +97,11 @@ const Initiatives = () => {
             </div>
           </div>
 
-          <div className="p-10 md:w-1/2 ">
+          <div
+            className="p-10 md:w-1/2 "
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <h1 className="text-4xl font-bold uppercase text-blue-800">
               INITIATIVES
             </h1>

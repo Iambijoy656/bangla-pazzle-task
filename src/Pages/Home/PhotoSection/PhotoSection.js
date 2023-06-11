@@ -10,7 +10,7 @@ const PhotoSection = () => {
         Photo Gallery
       </h1>
 
-      <section className="py-6 ">
+      <section className="py-6 " data-aos="fade-up" data-aos-duration="1000">
         <div className="container flex flex-col justify-center p-4 mx-auto">
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 sm:grid-cols-2">
             <img

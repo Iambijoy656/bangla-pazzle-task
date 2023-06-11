@@ -9,7 +9,8 @@ const VedioSection = () => {
       <h1 style={myStyles} className="text-4xl font-bold text-white p-10 ">
         Vedio Gallery
       </h1>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center"  data-aos="fade-up"
+      data-aos-duration="1000">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-5">
           <iframe
             src="https://www.youtube.com/embed/sE64kscT1pA"

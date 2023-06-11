@@ -11,7 +11,11 @@ const MapSection = () => {
     lng: 90.40099041126946,
   };
   return (
-    <div className="bg-white flex flex-col lg:flex-row justify-center items-center py-10 ">
+    <div
+      className="bg-white flex flex-col lg:flex-row justify-center items-center py-10 "
+      data-aos="zoom-in-down"
+      data-aos-duration="1000"
+    >
       <LoadScript googleMapsApiKey="AIzaSyCTcrDBAAoc0Sp81UmYduf6bRTOX_zHcW0">
         <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={16}>
           <Marker position={center} />

@@ -4,7 +4,12 @@ import { FaArrowRight } from "react-icons/fa";
 
 const IdeologySection = () => {
   return (
-    <section className="bg-[#fff] md:pt-10">
+    <section
+      className="bg-[#fff] md:pt-10"
+      data-aos="fade-right"
+      data-aos-direction="left"
+      data-aos-duration="2000"
+    >
       <div className="hero md:px-10">
         <div className="hero-content flex-col lg:flex-row">
           <img

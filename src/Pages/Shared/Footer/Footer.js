@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-between bg-[#115c8f] pt-16  py-32">
-      <div className="text-white font-bold text-3xl">
+      <div
+        className="text-white font-bold text-3xl"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <div className=" px-10">
           <p className="text-white font-bold">dgbsa22@gmail.com</p>
           <p>01914088093</p>

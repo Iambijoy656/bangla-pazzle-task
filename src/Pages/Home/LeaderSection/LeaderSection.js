@@ -3,7 +3,12 @@ import { FaArrowRight } from "react-icons/fa";
 
 const LeaderSection = () => {
   return (
-    <section className="md:-mt-4">
+    <section
+      className="md:-mt-4"
+      data-aos="fade-left"
+      data-aos-direction="right"
+      data-aos-duration="1000"
+    >
       <div className="hero bg-[#115c8f]">
         <div className="hero-content flex-col lg:flex-row-reverse ">
           <img
