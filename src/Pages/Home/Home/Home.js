@@ -9,6 +9,8 @@ import Initiatives from "../Iniatives/Initiatives";
 import VedioSection from "../VedioSection/VedioSection";
 import PhotoSection from "../PhotoSection/PhotoSection";
 import MediaSection from "../MediaSection/MediaSection";
+import Newsletter from "../Newsletter/Newsletter";
+import MapSection from "../MapSection/MapSection";
 
 const Home = () => {
   return (
@@ -22,7 +24,9 @@ const Home = () => {
       <Initiatives></Initiatives>
       <VedioSection></VedioSection>
       <PhotoSection></PhotoSection>
-    <MediaSection></MediaSection>
+      <MediaSection></MediaSection>
+      <MapSection></MapSection>
+      <Newsletter></Newsletter>
     </div>
   );
 };

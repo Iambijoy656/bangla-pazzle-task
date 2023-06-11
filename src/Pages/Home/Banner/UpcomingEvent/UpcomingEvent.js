@@ -5,7 +5,7 @@ const UpcomingEvent = () => {
     letterSpacing: "10px",
   };
   return (
-    <div>
+    <div className="bg-white">
       <h1
         style={myStyles}
         className="text-4xl font-semibold text-blue-900 p-10 uppercase"

@@ -2,7 +2,7 @@ import React from "react";
 
 const Initiatives = () => {
   return (
-    <section className="">
+    <section className=" bg-white mb-[400px]">
       <div className="hero">
         <div className="hero-content flex-col lg:flex-row-reverse ">
           <div className="grid grid-cols-2 md:grid-cols-2 gap-4">

@@ -5,12 +5,12 @@ const PhotoSection = () => {
     letterSpacing: "8px",
   };
   return (
-    <div>
+    <div className="bg-white">
       <h1 style={myStyles} className="text-4xl font-bold  p-10 text-blue-700 ">
         Photo Gallery
       </h1>
 
-      <section className="py-6 dark:bg-gray-800">
+      <section className="py-6 ">
         <div className="container flex flex-col justify-center p-4 mx-auto">
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 sm:grid-cols-2">
             <img

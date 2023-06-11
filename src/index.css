@@ -9,6 +9,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('https://anjirliton.com/uploads/home/1675939530.jpg');
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-attachment: fixed;
 }
 
 code {

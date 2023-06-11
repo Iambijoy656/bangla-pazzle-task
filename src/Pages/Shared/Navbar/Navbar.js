@@ -1,9 +1,10 @@
+import "./Navbar.css";
 import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-[#115c8f] justify-around  p-5 px-10">
+    <div className="navbar bg-[#115c8f] justify-around z-50 p-5 px-10 sticky top-0">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn hover:bg-none lg:hidden">
@@ -24,7 +25,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm text-white dropdown-content text-bold mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm z-50 text-black dropdown-content text-bold mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
               <Link>Item 1</Link>
@@ -50,7 +51,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal  px-1">
+        <ul className="menu menu-horizontal z-50 px-1">
           <li tabIndex={0}>
             <details>
               <summary className="text-white hover:text-white">About</summary>
@@ -73,8 +74,10 @@ const Navbar = () => {
 
           <li tabIndex={1}>
             <details>
-              <summary className="text-white hover:text-white">Media</summary>
-              <ul className="p-2">
+              <summary className="text-white hover:text-white menuItem">
+                Media
+              </summary>
+              <ul className="p-2 subMenuItems">
                 <li>
                   <Link>Press</Link>
                 </li>
@@ -90,7 +93,7 @@ const Navbar = () => {
 
           <li tabIndex={2}>
             <details>
-              <summary className="text-white hover:text-white">Media</summary>
+              <summary className="text-white hover:text-white">Gellary</summary>
               <ul className="p-2">
                 <li>
                   <Link>Photo Galaery</Link>
